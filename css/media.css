@@ -1,5 +1,14 @@
 /*==========  Desktop First Method  ==========*/
-
+/*new*/
+@media only screen and (max-width : 1280px) {
+	.sly-slider > li {
+		width: 381px;
+	}
+	.item-review__content {
+		padding: 75px 125px;
+		padding-left: 215px;
+	}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.logo-descr {
@@ -54,7 +63,87 @@
 	.footer .logo img {
 		max-width: 209px;
 	}
+	/*new*/
+	.item-review__content {
+		padding: 60px 50px;
+		padding-left: 135px;
+		margin-left: -100px;
+	}
+	.item-review__image {
+		width: 500px;
+		height: 385px;
+	}
+	.item-review {
+		font-size: 16px;
+		line-height: 21px;
+	}
+	.item-review .title-middle {
+		padding-top: 20px;
+	}
+	.descr-review {
+		font-size: 14px;
+		line-height: 21px;
+		padding-bottom: 22px;
+	}
+	.item-review__content::before {
+		width: 81px;
+		height: 71px;
+	}
+	.item-get {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.sly-slider > li {
+		width: 412px;
+	}
+	.section-main_projects {
+		padding-bottom: 100px;
+	}
+	.block-portfolio_service {
+		padding: 30px 60px;
+	}
+	.block-portfolio_service .slider-portfolio .slick-prev {
+		left: -45px;
+	}
+	.block-portfolio_service .slider-portfolio .slick-next {
+		right: -45px;
+	}
+	.block-portfolio_service .image-portfolio {
+		height: 435px;
+	}
+	.block-portfolio_service .text-portfolio {
+		max-height: 352px;
+	}
+	.row_units {
+		margin: 0 -10px;
+	}
+	.row_units > div {
+		padding: 0 10px;
+		margin-bottom: 20px;
+	}
+	.unit-service__content {
+		padding: 15px;
+		padding-bottom: 30px;
+	}
+	.title-middle {
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.section-main {
+		padding-top: 75px;
+	}
+	.billbord-page .title-middle {
+		max-width: 510px;
+		padding-bottom: 35px;
+	}
+	.billbord-page .title-big {
+		padding-bottom: 25px;
+	}
+	.billbord-page {
+		min-height: 535px;
+	}
 }
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -173,6 +262,74 @@
 	.header-contact {
 		margin-bottom: 15px;
 	}
+
+	/*new*/
+	.menu li {
+		margin-right: 0;
+	}
+	.item-service .btn-simple {
+		opacity: 1;
+	}
+	.text-service {
+		margin-bottom: 25px;
+	}
+	.info-service,
+	.services_page {
+		padding-bottom: 55px;
+	}
+	.wrapper {
+		padding-top: 87px;
+	}
+	.breadcrumbs {
+		padding-bottom: 20px;
+	}
+	.billbord-page .title-big {
+		max-width: 600px;
+	}
+	.billbord-page {
+		min-height: 470px;
+	}
+	.block-portfolio_service .title-middle {
+		font-size: 26px;
+		line-height: 39px;
+		padding: 15px 0;
+	}
+	.block-portfolio_service {
+		margin-bottom: 0;
+	}
+	.get-price {
+		padding-top: 55px;
+		padding-bottom: 65px;
+		background-position: 20% 50%;
+	}
+	.item-review {
+		display: block;
+	}
+	.item-review__image {
+		width: 100%;
+	}
+	.item-review__content {
+		padding: 30px;
+		margin: 0;
+		z-index: 2;
+	}
+	.item-review {
+		background: #F7F8F9;
+		border-radius: 10px;
+	}
+	.item-review__content::before {
+		top: -44px;
+		right: 24px;
+	}
+	.slider-reviews {
+		padding-bottom: 40px;
+	}
+	.section-main_reviews {
+		padding-bottom: 60px;
+	}
+	.section-main .descr-section {
+		padding-bottom: 25px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -270,6 +427,72 @@
 	}
 	.contacts {
 		padding-bottom: 45px;
+	}
+	/*new*/
+	.services_page .head-section {
+		padding-bottom: 10px;
+	}
+	.slider-services .slick-slide {
+		padding-bottom: 30px;
+	}
+	.services_page {
+		padding-bottom: 25px;
+	}
+	.info-service .title-section {
+		padding-bottom: 25px;
+	}
+	.text-service {
+		font-size: 16px;
+		line-height: 24px;
+		padding-right: 30px;
+	}
+	.image-service {
+		height: 350px;
+	}
+	.image-service {
+		height: 300px;
+	}
+	.billbord-page {
+		min-height: 430px;
+		background-position: 55% 50%;
+	}
+	.section-main {
+		padding-top: 50px;
+	}
+	.block-portfolio_service {
+		padding: 30px 15px;
+		padding-bottom: 15px;
+	}
+	.slider-portfolio .slick-dots {
+		bottom: -40px;
+	}
+	.sly-wrap {
+		margin-right: -15px;
+	}
+	.scrollbar {
+		margin-top: 35px;
+	}
+	.section-main_projects {
+		padding-bottom: 70px;
+	}
+	.consultation-block {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.item-get {
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+	.get-price .title-section {
+		padding-bottom: 25px;
+	}
+	.get-price .btn-main {
+		margin-top: 15px;
+		padding: 0 40px;
+		width: initial;
+	}
+	.item-review__image {
+		height: 330px;
 	}
 }
 
@@ -386,7 +609,72 @@
 	.wrapper {
 		padding-top: 56px;
 	}
+	/*new*/
+	.text-service {
+		max-height: 242px;
+	}
+	.wrapper {
+		padding-top: 84px;
+	}
+	.billbord-page .title-middle {
+		padding-bottom: 30px;
+	}
+	.billbord-page {
+		padding-bottom: 65px;
+		min-height: 410px;
+		padding-top: 0;
+		background-position: 64% 50%;
+	}
+	.unit-service__image {
+		height: 190px;
+	}
+	.block-portfolio_service .title-middle {
+		font-size: 22px;
+		line-height: 33px;
+	}
+	.block-portfolio_service .image-portfolio {
+		height: 310px;
+	}
+	.block-portfolio_service .text-portfolio {
+		max-height: 342px;
+	}
+	.section-main_projects {
+		padding-top: 20px;
+	}
+	.sly-slider > li {
+		width: calc(100vw - 30px);
+		margin-right: 25px;
+	}
+	.sly-slider {
+		padding-right: 25px;
+	}
+	.unit-project__content {
+		padding: 20px 15px;
+	}
+	.unit-project li {
+		margin-bottom: 15px;
+	}
+	.handle {
+		width: 160px;
+	}
+	.consultation-block {
+		margin: 0;
+	}
+	.item-review__image {
+		height: 280px;
+	}
+	.item-review__content {
+		padding: 30px 15px;
+	}
+	.section-main_reviews {
+		padding-bottom: 45px;
+	}
+	.billbord-page .title-middle,
+	.billbord-page .title-big {
+		max-width: 330px;
+	}
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -423,12 +711,13 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	/*new*/
 	.container {
-		max-width: 1200px;
+		max-width: 1280px;
 	}
 }
 @media (min-width: 1600px) {
 	.container {
-		max-width: 1200px;
+		max-width: 1280px;
 	}
 }
