@@ -637,6 +637,7 @@
 	}
 	.block-portfolio_service .text-portfolio {
 		max-height: 342px;
+		margin-right: 4px;
 	}
 	.section-main_projects {
 		padding-top: 20px;
