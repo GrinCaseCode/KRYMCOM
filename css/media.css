@@ -372,7 +372,7 @@
 		padding-right: 15px;
 	}
 	.about__image {
-		margin-top: 20px;
+		margin-top: 30px;
 		margin-left: 0;
 	}
 }
@@ -841,6 +841,9 @@
 	}
 	.about__image {
 		height: 320px;
+	}
+	.about {
+		padding-top: 30px;
 	}
 }
 
